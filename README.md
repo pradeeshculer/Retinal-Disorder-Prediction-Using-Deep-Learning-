@@ -111,9 +111,9 @@ The models were evaluated based on their accuracy in classifying the retinal ima
 
 ### Training Parameters
 - **Epochs**: 
-  - VGG19: 20 epochs
-  - Xception: 25 epochs
-  - Custom CNN: 20 epochs, extended to 100 epochs with checkpoints
+  - VGG19: 100 epochs
+  - Xception: 100 epochs
+  - Custom CNN: 100 epochs
 - **Batch Size**: 64
 - **Learning Rate**: 
   - Optimizer: Adam
@@ -143,6 +143,12 @@ The frontend is a simple HTML/CSS interface that allows users to upload images a
 ### Backend 
 
 The backend is powered by Flask and serves the model predictions. The model used for the web application is the custom CNN due to its high accuracy.
+
+### Snap of webpage
+
+![webpaage](https://github.com/pradeeshculer/Retinal-Disorder-Prediction-Using-Deep-Learning-/assets/115096109/a7640bdb-6811-4b8a-92db-b36f8c4fac68)
+
+![Frontend new image](https://github.com/pradeeshculer/Retinal-Disorder-Prediction-Using-Deep-Learning-/assets/115096109/de2e78b7-d14c-454f-bbfd-388b82093213)
 
 ## 8. Conclusion
 
