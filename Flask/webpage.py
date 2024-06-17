@@ -8,7 +8,7 @@ import base64
 app = Flask(__name__, template_folder='templates')
 
 # Load your CNN model
-model = load_model("E:/Documents/Docs/Pradeesh/Academic/VESIT/CNN_project/frontend/Lord_cnn.h5")
+model = load_model("")
 
 # Define the signs, symptoms, and cure for each category
 category_info = {
